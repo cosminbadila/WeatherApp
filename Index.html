@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/1afbfb0e53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">Weather</h3>
+            <div>
+                <h1 class="temp">16°C</h1>
+                <div class="city-name">
+                    <h1 class="name">London</h1>
+                    <small>
+                        <span class="time">12:45</span>
+                        -
+                        <span class="date">Friday Apr 07</span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+                    <span class="condition">Cloudy</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form id="locationImput">
+                <input type="text" class="search" placeholder="Select Location...">
+                <button type="submit" class="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+                
+
+            </form>
+            
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">82%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">44%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">3 km/h</span>
+                </li>
+            </ul>
+            <ul class="cities">
+                <h4>Favourite list</h4>
+                <li class="city">New York</li>
+                <li class="city">Paris</li>
+                <li class="city">Berlin</li>
+                <li class="city">Tokyo</li>
+
+            </ul>
+        </div>
+    </div>
+    
+    <script src="JavaScript.js"></script>
+</body>
+</html>
