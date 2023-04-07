@@ -1,13 +1,14 @@
-
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family:'roboto',sans-serif;
     background: #111;
 }
 *{
     box-sizing: border-box;
 }
-
+/* Left Side Styling */
 h1,h3{
     font-size: 30px;
     /* font-weight: 500; */
@@ -80,6 +81,7 @@ h1,h3{
 .condition{
     margin-left: 15px;
 }
+/* Right side styling */
 .panel{
     position: absolute;
     width: 40%;

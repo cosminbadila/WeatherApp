@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="./style.css">
-
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- font Awersome -->
     <script src="https://kit.fontawesome.com/1afbfb0e53.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Left Side -->
     <div class="weather-app">
         <div class="container">
             <h3 class="brand">Weather</h3>
             <div>
                 <h1 class="temp">16°C</h1>
                 <div class="city-name">
-                    <h1 class="name">London</h1>
+                    <h1 class="name">Brasov</h1>
                     <small>
                         <span class="time">12:45</span>
                         -
@@ -24,14 +32,15 @@
                     </small>
                 </div>
                 <div class="weather">
-                    <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+                    <img src="" class="icon" alt="icon" width="50" height="50">
                     <span class="condition">Cloudy</span>
                 </div>
             </div>
         </div>
+    <!-- Right Side -->
         <div class="panel">
             <form id="locationImput">
-                <input type="text" class="search" placeholder="Select Location...">
+                <input type="text" class="search" placeholder="Search for a Location...">
                 <button type="submit" class="submit">
                     <i class="fas fa-search"></i>
                 </button>
@@ -55,11 +64,17 @@
                 </li>
             </ul>
             <ul class="cities">
-                <h4>Favourite list</h4>
+                <h4>Favorite list</h4>
+                <li class="city">Barcelona</li>
                 <li class="city">New York</li>
+                <li class="city">Shanghai</li>
+                <li class="city">Bucharest</li>
                 <li class="city">Paris</li>
-                <li class="city">Berlin</li>
+                <li class="city">München</li>
                 <li class="city">Tokyo</li>
+                <li class="city">Cairo</li>
+                <li class="city">Jakarta</li>
+                <li class="city">Delhi</li>
 
             </ul>
         </div>
