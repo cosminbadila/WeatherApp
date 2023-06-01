@@ -46,19 +46,37 @@ form.addEventListener('submit',(e) =>{
     e.preventDefault();
 });
 //return a day of the week
-function dayOfTheWeek(day, month, year){
-    const weekday=[
-        'Sunday',
+
+// function dayOfTheWeek(day, month, year){
+//     const weekday=[
+//         'Monday',
+//         'Tuesday',
+//         'Wednesday',
+//         'Thursday',
+//         'Friday',
+//         'Saturday',
+//         'Sunday',
+
+//     ];
+//     return weekday[new Date(`${day}/${month}/${year}`).getDay()];
+// };
+
+//return a day of the week
+function dayOfTheWeek(day, month, year) {
+    const weekday = [
         'Monday',
         'Tuesday',
         'Wednesday',
         'Thursday',
         'Friday',
-        'Saturday'
+        'Saturday',
+        'Sunday',
 
     ];
-    return weekday[new Date(`${day}/${month}/${year}`).getDay()];
-};
+    var d = new Date(day, month, year)
+    var dayName = weekday[d.getDay()]; 
+    return dayName;
+}
 
 //Function that fetches and display the data from weather API
 function fetchWeatherData(){
